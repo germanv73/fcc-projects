@@ -24,8 +24,9 @@ body {
     color: var(--clr-light);
     font-family: var(--ff-primary);
     margin: 0;
-    padding: 1em 2.5em;
+    padding: 1em 2.25em;
 }
+
 
 /* Typography */
 
@@ -65,4 +66,31 @@ body {
 #img-caption {
     font-family: var(--ff-secondary);
     text-align: center;
+    line-height: 1.5;
+}
+
+
+/* Tribute Information */ 
+
+
+#tribute-info {
+    /* max-width: 750px;
+    align-self: center; */
+    margin: auto;
+    min-width: 70%;
+}
+
+#tribute-info p {
+    text-align: center;
+}
+
+.tribute-list {
+    font-family: var(--ff-secondary);
+    line-height: 1.5;
+}
+
+@media (min-width: 600px) {
+    #tribute-info {
+        max-width: 80%;
+    }
 }
