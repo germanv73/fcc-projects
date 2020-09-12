@@ -35,6 +35,8 @@ body {
 }
 
 
+
+
 /* Title */
 
 #title {
@@ -45,6 +47,7 @@ body {
     font-size: var(--fs-h1);
     line-height: .75;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #title p {
@@ -78,6 +81,7 @@ body {
     align-self: center; */
     margin: auto;
     min-width: 70%;
+    padding-top: 10px;
 }
 
 #tribute-info p {
@@ -93,4 +97,38 @@ body {
     #tribute-info {
         max-width: 80%;
     }
+}
+
+
+/* Tribute Quote */
+
+.tribute-quote {
+    padding-top: 10px;
+}
+.tribute-quote p {
+    font-family: var(--ff-secondary);
+    line-height: 1.5;
+}
+
+#tribute-auth {
+    font-family: var(--ff-primary);
+}
+
+
+/* Tribute Link */
+
+#tribute-link {
+    margin: auto;
+    max-width: 70%;
+    line-height: 1.5;
+    padding-top: 10px;
+    font-family: var(--ff-secondary);
+}
+
+#tribute-link a{
+    color: var(--clr-light);
+}
+
+#tribute-link a:hover {
+    color: #ddcaa6;
 }
