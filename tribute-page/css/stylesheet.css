@@ -34,6 +34,31 @@ body {
     font-family: var(--ff-secondary);
 }
 
+#img-caption {
+    font-family: var(--ff-secondary);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.tribute-list {
+    font-family: var(--ff-secondary);
+    line-height: 1.5;
+}
+
+.tribute-quote p {
+    font-family: var(--ff-secondary);
+    line-height: 1.5;
+}
+
+#tribute-auth {
+    font-family: var(--ff-primary);
+}
+
+.footer {
+    line-height: 1.5;
+    font-family: var(--ff-secondary);
+}
+
 /* Title */
 
 #title {
@@ -63,12 +88,6 @@ body {
     0.125em 0.125em .025em rgba(0,0,0,.15);;
 }
 
-#img-caption {
-    font-family: var(--ff-secondary);
-    text-align: center;
-    line-height: 1.5;
-}
-
 @media (min-width: 600px) {
     #img-div img {
         display: block;
@@ -82,20 +101,12 @@ body {
 
 
 #tribute-info {
-    /* max-width: 750px;
-    align-self: center; */
     margin: auto;
-    /*min-width: 70%;*/
     padding-top: 10px;
 }
 
 #tribute-info p {
     text-align: center;
-}
-
-.tribute-list {
-    font-family: var(--ff-secondary);
-    line-height: 1.5;
 }
 
 @media (min-width: 600px) {
@@ -110,24 +121,13 @@ body {
 .tribute-quote {
     padding-top: 10px;
 }
-.tribute-quote p {
-    font-family: var(--ff-secondary);
-    line-height: 1.5;
-}
-
-#tribute-auth {
-    font-family: var(--ff-primary);
-}
 
 
 /* Tribute Link */
 
 .footer {
     margin: auto;
-    /*max-width: 70%;*/
-    line-height: 1.5;
     padding-top: 10px;
-    font-family: var(--ff-secondary);
 }
 
 .footer a{
